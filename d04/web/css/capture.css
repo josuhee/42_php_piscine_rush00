@@ -1,0 +1,148 @@
+/*init*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pull-left {
+    float: left;
+}
+
+/* header */
+#main-header {
+    padding: 20px 0;
+    background: rgb(204, 204, 204);
+}
+
+hgroup {
+    text-align: center;
+}
+
+/* content */
+#content {
+    margin: 0 auto;
+    width: 1050px;
+    height: 710px;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../img/capture_background.jpg');
+	background-size: 100% 710px;
+	position: relative;
+}
+
+#button-div {
+	position: absolute;
+	right: 36px;
+	top: 55px;
+}
+
+#button-div button {
+	width: 60px;
+	height: 40px;
+	font-size: 30px;
+	font-weight: bold;
+	background:rgb(186, 199, 250);
+	box-shadow: 1px 2px 3px 1px #2b2b2b;
+}
+
+#button-div button:hover{
+	box-shadow: 1px 2px 3px 1px #2b2b2b inset;
+	cursor: pointer;
+}
+
+.score {
+	position: absolute;
+	left: 50%;
+	top: 50px;
+	margin-left: -150px;
+	width: 300px;
+	height: 40px;
+	background: white;
+	font-size: 20px;
+}
+
+.score p {
+	font-weight: bolder;
+	text-align: center;
+	line-height: 40px;
+}
+
+/* poster */
+
+.poster {
+	position: absolute;
+	width: 140px;
+	height: 190px;
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+
+.poster:nth-child(2n) {
+	top: 170px;
+}
+
+.poster:nth-child(2n+1) {
+	bottom: 70px;
+}
+
+.poster:nth-child(2), .poster:nth-child(3) {
+	left: 10%;
+	margin-left: -70px;
+}
+
+.poster:nth-child(4), .poster:nth-child(5) {
+	left: 30%;
+	margin-left: -70px;
+}
+
+.poster:nth-child(6), .poster:nth-child(7) {
+	left: 50%;
+	margin-left: -70px;
+}
+
+.poster:nth-child(8), .poster:nth-child(9) {
+	right: 30%;
+	margin-right: -70px;
+}
+
+.poster:nth-child(10), .poster:nth-child(11) {
+	right: 10%;
+	margin-right: -70px;
+}
+
+/* footer */
+#main-footer {
+	padding: 15px;
+    background: rgb(204, 204, 204);
+    height: 110px;
+    overflow: hidden;
+}
+
+#main-footer img {
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+}
+
+#main-footer p {
+	color: rgb(114, 114, 114);
+}
+
+.git-address {
+	height: 20px;
+}
+
+.git-address p {
+	margin-left: 10px;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+.git-address span {
+	color: rgb(114, 114, 114);
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: bold;
+}
+
+.footer-margin {
+	margin-bottom: 10px;
+}

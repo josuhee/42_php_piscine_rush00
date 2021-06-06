@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Battle</title>
+	<link rel="stylesheet" type="text/css" href="css/battle.css"/>
+</head>
+<body>
+	<!--total-->
+    <div id="page-wrapper">
+        <!--header-->
+        <header id="main-header">
+            <hgroup>
+                <h1>Battle</h1>
+                <h2>-Capture your moviemon</h2>
+            </hgroup>
+        </header>
+        <!--content-->
+        <div id="content">
+            <!---battle-->
+            <div id="battle-div" class="pull-left">
+                <div id="battle-user" class="box">
+                    <p class="battle-title">player</p>
+                    <div class="set-img">
+                        <img src="img/player.png" alt="">
+                    </div>
+                    <p class="battle-info">HP : {{ player_health }}/{{ max_player }}</p>
+                    <p class="battle-info">ATK : {{ str }}</p>
+                </div>
+                <div id="battle-mon" class="box">
+                    <p class="battle-title">{{ title }}</p>
+                    <div class="set-img">
+                        <img src={{ post }} alt="">
+                    </div>
+                    <p class="battle-info">HP : {{ mon_health }}/{{ max_mon }}</p>
+                    <p class="battle-info">ATK : {{ mon_str }}</p>
+                </div>
+            </div>
+            <!--button-->
+            <div id="button-div" class="pull-left">
+                {{ form_start(form) }}
+                {{ form_end(form) }}
+            </div>
+        </div>
+        <!--footer-->
+        <footer id="main-footer">
+            <p class="footer-margin">php | piscine | rush00 | project | by. slee2, sujo</p>
+            <p class="footer-margin">Born to code. 42Seoul...</p>
+            <div class="git-address">
+                <img class="pull-left" src="img/github.png" alt="">
+                <p class="pull-left"><span>slee2</span> : https://github.com/Lee-seungju</p>
+            </div>
+            <div class="git-address">
+                <img class="pull-left" src="img/github.png" alt="">
+                <p class="pull-left"><span>sujo</span> : https://github.com/josuhee</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

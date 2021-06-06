@@ -1,0 +1,22 @@
+moviedex:
+    path:   /moviedex
+    defaults: {_controller: GameBundle:Default:moviedex}
+worldmapnext:
+    path:   /worldmap/next
+    defaults: {_controller: GameBundle:Default:worldnext}
+worldmap:
+    path:   /worldmap
+    defaults: {_controller: GameBundle:Default:world}
+muffin time:
+    path:   /battle
+    defaults: {_controller: GameBundle:Default:index}
+task_success:
+    path:   /
+    defaults: {_controller: GameBundle:Default:login}
+game:
+    resource: "@GameBundle/Controller/"
+    type:     annotation
+    prefix:   /
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation

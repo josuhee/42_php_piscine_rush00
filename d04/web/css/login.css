@@ -1,0 +1,142 @@
+/*init*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.pull-left {
+    float: left;
+}
+
+/* header */
+#main-header {
+    padding: 20px 0;
+    background: rgb(204, 204, 204);
+}
+
+hgroup {
+    text-align: center;
+}
+
+/* content */
+/* login */
+#content {
+    margin: 0 auto;
+    width: 1050px;
+    height: 710px;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../img/login_back.jpg');
+	background-size: auto 100%;
+}
+
+#login {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -110px;
+	margin-left: -280px;
+}
+
+#form_Message {
+	padding: 10px 0;
+}
+
+#form_new {
+	padding: 7px 20px;
+}
+
+/*pull down menu*/
+ul, li, span {
+	font-size: 30px;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+ul, li {
+	list-style: none;
+}
+
+.outer-menu {
+	width: 600px;
+	height: 120px;
+}
+
+.outer-menu-item {
+	border: 2px solid white;
+	padding: 40px;
+	margin: 0 60px;
+	float: left;
+	position: relative;
+	cursor: pointer;
+}
+
+.outer-menu-item:hover {
+	background: rgb(223, 217, 217);
+}
+
+.outer-menu-item:hover span {
+	color: black;
+}
+
+.inner-menu {
+	display: none;
+	top: 120px;
+	left: 0;
+	position: absolute;
+	width: 100%;
+	z-index: 1000;
+}
+
+.inner-menu li {
+	padding: 20px 0;
+}
+
+.inner-menu a {
+	color: white;
+	text-decoration: none;
+}
+
+.inner-menu li:hover a{
+	cursor: pointer;
+	color: yellow;
+}
+
+/* footer */
+#main-footer {
+	padding: 15px;
+    background: rgb(204, 204, 204);
+    height: 100px;
+    overflow: hidden;
+}
+
+#main-footer img {
+	width: 20px;
+	height: 20px;
+	border-radius: 20px;
+}
+
+#main-footer p {
+	color: rgb(114, 114, 114);
+	font-size: 15px;
+}
+
+.git-address {
+	height: 20px;
+}
+
+.git-address p {
+	margin-left: 10px;
+	font-size: 15px;
+	line-height: 20px;
+}
+
+.git-address span {
+	color: rgb(114, 114, 114);
+	font-size: 15px;
+	line-height: 20px;
+	font-weight: bold;
+}
+
+.footer-margin {
+	margin-bottom: 10px;
+}

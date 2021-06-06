@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login the Game</title>
+    <link rel="stylesheet" type="text/css" href="css/login.css"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="script/login.js"></script>
+</head>
+<body>
+    <!--total-->
+    <div id="page-wrapper">
+        <!--header-->
+        <header id="main-header">
+            <hgroup>
+                <h1>Start the Game</h1>
+                <h2>-Capture your moviemon</h2>
+            </hgroup>
+        </header>
+        <!--content-->
+        <div id="content">
+            <!--login-->
+            <div id="login" class="pull-left">
+                <ul class="outer-menu">
+                    <li class="outer-menu-item">
+                        <span class="outer-menu-title">NEW !</span>
+                        <ul class="inner-menu">
+                            <li>
+                                {{ form_start(form) }}
+                                {{ form_end(form) }}
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="outer-menu-item">
+                        <span class="outer-menu-title">Load !</span>
+                        <ul class="inner-menu">
+                            {% for file in save %}
+                            <li><a href="http://localhost:8000/save/{{ file }}">{{ file }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--footer-->
+        <footer id="main-footer">
+            <p class="footer-margin">php | piscine | rush00 | project | by. slee2, sujo</p>
+            <p class="footer-margin">Born to code. 42Seoul...</p>
+            <div class="git-address">
+                <img class="pull-left" src="img/github.png" alt="">
+                <p class="pull-left"><span>slee2</span> : https://github.com/Lee-seungju</p>
+            </div>
+            <div class="git-address">
+                <img class="pull-left" src="img/github.png" alt="">
+                <p class="pull-left"><span>sujo</span> : https://github.com/josuhee</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
+
