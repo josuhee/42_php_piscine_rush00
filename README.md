@@ -1,5 +1,9 @@
 # 42_php_piscine_rush00
 
+## Projects
+- omdb api를 사용한 moviemon을 만들어 게임 만들기.  
+- php symfony 사용.
+
 ## Win
 ![win](https://user-images.githubusercontent.com/69746967/122404952-9b38f500-cfba-11eb-8318-c175a4556354.gif)
 
