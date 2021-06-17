@@ -9,11 +9,12 @@ function moviemon() {
     $api = new RestClient;
     $index = 1;
     $monrand = rand(30, 50);
+    //key 발급 받아서 삽입하기
     while ($index <= 5) {
         $api->set_option('base_url', "http://www.omdbapi.com");
         $result = $api->get("/", [
             's' => 'School',
-            'apikey' => 'e496f800',
+            'apikey' => '',
             'page' => $index,
         ]);
         $test = json_decode($result->response);
