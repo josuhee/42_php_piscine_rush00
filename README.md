@@ -1,6 +1,8 @@
-# 42_php_piscine_rush00
+<hr/>  
+<h3 align="center">🌱 42_php_piscine_rush00 🌱</h3>  
+<hr/>  
 
-## Projects
+## ⚔ Projects ⚔
 - omdb api를 사용한 moviemon을 만들어 게임 만들기.  
 - php symfony 사용.
 <br/>
@@ -20,7 +22,7 @@
 
 <br/>
 
-## Win
+## 📌 Win 📌
 > 1. moviemon의 체력(health)이 0이 되는 경우, capture
 > 2. 그리고 world map으로 복귀
 > 3. 복귀하는 경우 플레이어의 체력 회복.
@@ -28,21 +30,21 @@
 ![win](https://user-images.githubusercontent.com/69746967/122404952-9b38f500-cfba-11eb-8318-c175a4556354.gif)
 <br/>
 
-## Movie Dex
+## 📌 Movie Dex 📌
 > - capture한 모든 moviemon을 표시
 > - 잡은 moviemon일 경우 해당 영화에 대한 세부정보 표시
 
 ![movie](https://user-images.githubusercontent.com/69746967/122405001-a2f89980-cfba-11eb-9deb-344a10ffbb12.gif)
 <br/>
 
-## Save and Load
+## 📌 Save and Load 📌
 > - 기존 저장된 파일에서 게임을 로드함.
 > - 플레이어의 정보는 json 형태로 저장할 것.
 
 ![saveload](https://user-images.githubusercontent.com/69746967/122404976-9ecc7c00-cfba-11eb-9bf2-edc9c15c3e14.gif)
 <br/>
 
-## Game Over
+## 📌 Game Over 📌
 > 1. 체력이 0에 도달한 경우.
 > 2. 게임 오버 메시지 출력
 > 3. 게임 리셋
